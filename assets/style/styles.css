@@ -1,0 +1,5 @@
+@import url(./common/_header.scss);
+@import url(./common/_footer.scss);
+@import url(./common/_reset.scss);
+@import url(./common/_variables.scss);
+@import url(./homepage/style.scss);
