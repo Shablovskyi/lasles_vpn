@@ -1,7 +1,11 @@
-@import url(./_about.scss);
-@import url(./_hero.scss);
-@import url(./_subscribe.scss);
-@import url(./_world-vpn.scss);
-@import url(./_partners.scss);
-@import url(./_comments.scss);
-@import url(./_bottom-subscribe.scss);
+@import "../_common/common";
+@import "../_common/header";
+
+@import "./hero";
+@import "./about";
+@import "./subscribe";
+@import "./world-vpn";
+@import "./partners";
+@import "./comments";
+@import "../_common/footer";
+
