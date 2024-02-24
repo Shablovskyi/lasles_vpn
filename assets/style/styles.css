@@ -445,10 +445,10 @@ h1, h2, h3, h4, p {
   position: relative;
   justify-content: center;
   flex-direction: column;
-  padding: 180px 150px 150px;
+  padding: 180px 150px 100px;
   background-color: #f6f6f6;
 }
-.footer__container .subscribe-bottom__container {
+.footer__container .footer-top {
   width: 1140px;
   height: 233px;
   position: absolute;
@@ -460,49 +460,49 @@ h1, h2, h3, h4, p {
   border-radius: 10px;
   background-color: #ffffff;
 }
-.footer__container .subscribe-bottom__container-wrapper h2 {
+.footer__container .footer-top__container h2 {
   max-width: 373px;
   font-weight: 700;
   font-size: 35px;
   line-height: 1.28;
   margin-bottom: 20px;
 }
-.footer__container .subscribe-bottom__container .button {
+.footer__container .footer-top .button {
   padding-left: 65px;
   padding-right: 65px;
 }
-.footer__container-wrapper {
+.footer__container .footer-bottom__container {
   display: flex;
   gap: 240px;
 }
-.footer__container-wrapper .footer-item {
+.footer__container .footer-bottom__container .footer-item {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.footer__container-wrapper .footer-item .paragraf {
+.footer__container .footer-bottom__container .footer-item .paragraf {
   max-width: 340px;
 }
-.footer__container-wrapper .footer-item .footer__social-icon {
+.footer__container .footer-bottom__container .footer-item .footer__social-icon {
   display: flex;
   gap: 20px;
 }
-.footer__container-wrapper .footer-item .copyright {
+.footer__container .footer-bottom__container .footer-item .copyright {
   font-weight: 500px;
   line-height: 1.87;
   color: #afb5c0;
 }
-.footer__container-wrapper .footer-menu {
+.footer__container .footer-bottom__container .footer-menu {
   display: flex;
   gap: 126px;
 }
-.footer__container-wrapper .footer-menu__items h4 {
+.footer__container .footer-bottom__container .footer-menu__items h4 {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.66;
   margin-bottom: 20px;
 }
-.footer__container-wrapper .footer-menu__items menu {
+.footer__container .footer-bottom__container .footer-menu__items menu {
   display: flex;
   flex-direction: column;
   gap: 10px;
