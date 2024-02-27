@@ -1,9 +1,12 @@
+@import "./animation/about";
+
 .about {
   flex-direction: row-reverse;
   gap: 169px;
-  padding: 96px 150px 131px 184px;
+  padding: 94px 150px 126px 184px;
 
   &__container {
+    max-width: 428px;
     display: flex;
     flex-direction: column;
     gap: 20px;
