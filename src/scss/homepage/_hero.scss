@@ -1,7 +1,9 @@
 @import "../_common/button";
+@import "./animation/hero";
 
 .hero {
   flex-direction: column;
+  overflow: hidden;
 
   &__container {
     display: flex;
@@ -10,6 +12,7 @@
     padding: 0 83px 103px 150px;
 
     &-wrapper {
+      max-width: 555px;
       h1 {
         font-size: 50px;
         line-height: 1.4;
@@ -20,8 +23,10 @@
       }
     }
   }
+  
 
   &__container-bottom {
+
     width: 1140px;
     height: 200px;
     display: flex;
@@ -62,4 +67,5 @@
       }
     }
   }
+
 }

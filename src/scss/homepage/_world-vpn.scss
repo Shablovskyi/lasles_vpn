@@ -1,6 +1,9 @@
+@import "./animation/world-vpn";
+
 .network {
   flex-direction: column;
-
+  background-color: $lightest-gray;
+  
   h2 {
     max-width: 383px;
     font-weight: 700;
@@ -16,3 +19,4 @@
     margin-bottom: 155px;
   }
 }
+

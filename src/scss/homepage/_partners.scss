@@ -1,4 +1,8 @@
+@import "./animation/partners";
+
 .partners {
+  background-color: $lightest-gray;
+  
   &__container {
     display: flex;
     align-items: center;

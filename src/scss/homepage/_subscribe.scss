@@ -1,6 +1,9 @@
+@import "./animation/subscribe";
+
 .subscribe {
   flex-direction: column;
   padding: 80px 175px 150px;
+  background-color: $lightest-gray;
 
   h2 {
     font-weight: 500;
@@ -94,6 +97,7 @@
           border-radius: 50px;
           padding: 13px 62px;
           color: $button-color;
+          transition: all .25s ease;
         }
       }
 
@@ -102,9 +106,10 @@
         .subscribe__item-bottom {
           a {
             background-color: $button-color;
-            box-shadow: 10px 20px 54px 0px rgba(245, 56, 56, 0.35);
-            -webkit-box-shadow: 10px 20px 54px 0px rgba(245, 56, 56, 0.35);
-            -moz-box-shadow: 10px 20px 54px 0px rgba(245, 56, 56, 0.35);
+            box-shadow: 0 17px 54px 0px rgba(245, 56, 56, 0.35);
+            -webkit-box-shadow: 0 17px 54px 0px rgba(245, 56, 56, 0.35);
+            -moz-box-shadow: 0 17px 54px 0px rgba(245, 56, 56, 0.35);
+            transform: translate(0, 5px);
             color: $main-white;
           }
         }
