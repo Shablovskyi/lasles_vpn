@@ -107,9 +107,9 @@
         border-radius: 50px;
         border: none;
         cursor: pointer;
-        transition: all .25s ease;
+        transition: all 0.25s ease;
 
-        &:hover{
+        &:hover {
           width: 45px;
           background: $active;
         }
@@ -135,7 +135,7 @@
         border: 2px solid $active;
         border-radius: 50px;
         cursor: pointer;
-        transition: all .25s ease;
+        transition: all 0.25s ease;
 
         span {
           color: $active;
@@ -145,7 +145,7 @@
           background-color: $active;
           transform: translate(5px, 0);
 
-          &:nth-child(1){
+          &:nth-child(1) {
             transform: translate(-5px, 0);
           }
 
