@@ -1,6 +1,6 @@
 .about {
   overflow: hidden;
-  
+
   img {
     filter: blur(0);
     animation: blur_loading 2s ease-in;
@@ -45,7 +45,8 @@
 
   &:hover h2,
   &:hover .paragraf,
-  &:hover ul li, &:hover img{
+  &:hover ul li,
+  &:hover img {
     animation-play-state: running;
   }
 }
